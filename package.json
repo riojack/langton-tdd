@@ -1,0 +1,17 @@
+{
+  "name": "langton-tdd",
+  "version": "1.0.0",
+  "description": "Langton's Ant but TDD'd.",
+  "main": "index.js",
+  "author": "AJ Whatling <riojack@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "jest"
+  }
+}
