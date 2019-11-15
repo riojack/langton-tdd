@@ -20,6 +20,7 @@
   "scripts": {
     "build": "webpack",
     "lint": "eslint -c ./.eslintrc.json ./*.js src/**/*.js test/**/*.js",
-    "test": "jest"
+    "pretest": "yarn lint",
+    "test": "jest --collectCoverage=true"
   }
 }
