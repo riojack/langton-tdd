@@ -1,4 +1,4 @@
-const PixelRasterizer = require('../../src/pixel-rasterizer');
+import PixelRasterizer from '../../src/pixel-rasterizer';
 
 describe('Pixel Rasterizer', () => {
   test('icebreaker returns "hello, world!"', () => {

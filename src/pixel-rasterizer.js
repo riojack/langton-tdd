@@ -1,7 +1,9 @@
-const PixelRasterizer = function() {};
+class PixelRasterizer {
+  constructor() { }
+  icebreaker() {
+    return 'hello, world!';
+  }
+}
 
-PixelRasterizer.prototype.icebreaker = function () {
-  return 'hello, world!';
-};
 
-module.exports = PixelRasterizer;
+export default PixelRasterizer;
