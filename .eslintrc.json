@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "parserOptions": {
+     "ecmaVersion": 6,
+     "sourceType": "module"
+    },
+  "plugins": ["jest"],
+  "rules": {
+    "import/prefer-default-export": [0],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "max-len": [
+      "error",
+      180
+    ],
+    "indent": [
+      "error",
+      2
+    ],
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ]
+  }
+}

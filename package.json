@@ -10,12 +10,16 @@
     "@babel/preset-env": "^7.7.1",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
+    "eslint": "^6.6.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.4",
     "jest": "^24.9.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
   "scripts": {
     "build": "webpack",
+    "lint": "eslint -c ./.eslintrc.json ./*.js src/**/*.js test/**/*.js",
     "test": "jest"
   }
 }
