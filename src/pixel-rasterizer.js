@@ -3,6 +3,10 @@ class PixelRasterizer {
   icebreaker() {
     return 'hello, world!';
   }
+
+  rasterizeOne(ctx, color, x, y) {
+    ctx.putImageData('', x, y);
+  }
 }
 
 
