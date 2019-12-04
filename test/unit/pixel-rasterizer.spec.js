@@ -1,12 +1,6 @@
 import PixelRasterizer from '../../src/pixel-rasterizer';
 
 describe('Pixel Rasterizer', () => {
-  test('icebreaker returns "hello, world!"', () => {
-    const rasterizer = new PixelRasterizer();
-    expect(rasterizer.icebreaker())
-      .toBe('hello, world!');
-  });
-
   test('puts image data at the given x,y coordinates', () => {
     const fakeContext = {
       putImageData: jest.fn()
